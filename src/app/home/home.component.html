@@ -1,0 +1,20 @@
+<div class="container">
+    <br>
+
+    <h4>This will be a demo of how routing works in Angular</h4>
+    <br>
+    <br>
+    <p>Cross Component Contact will be demonstrated ny passing simple values!</p>
+    <hr>
+    <br>
+    <br>
+    <p>Now a random number will be generated and passed on to the next component</p>
+    <button type="button" class="btn btn-info" [disabled]="clicked"
+    (click)="onRandomNumber()">Click Here</button>
+    <div class="container">
+        <br>
+        Number: {{firstNumber}}
+    </div>
+    <br>
+    <button class="btn btn-success" (click)="onNavigate()">Next</button>
+</div>

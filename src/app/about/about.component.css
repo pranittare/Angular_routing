@@ -1,0 +1,48 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+    max-height: 50%;
+    max-width: 50%;
+}
+@media only screen and (max-width: 989px){
+
+  .text{
+      text-align: center;
+  }
+}
+
+
+@media only screen and (min-width: 770px) {
+.carousel-indicators .active{
+    background-color: black;
+    margin-top: -60px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+li{
+  margin-top:8px ;
+}
+

@@ -1,0 +1,16 @@
+<div class="container">
+    <br>
+    <br>
+    <p>Previous Number {{previousNumber}}</p>
+    <br>
+    <br>
+    <p>Now a random number will be generated and passed on to the next component</p>
+    <button type="button" class="btn btn-info" [disabled]="clicked"
+    (click)="onRandomNumber()">Click Here</button>
+    <div class="container">
+        <br>
+        Number: {{secondNumber}}
+    </div>
+    <br>
+    <button class="btn btn-success" (click)="onNavigate()">Next</button>
+</div>
