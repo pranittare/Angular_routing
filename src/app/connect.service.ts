@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { resolve } from 'url';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +11,7 @@ export class ConnectService {
   bothNumbers = false;
   isPresent() {
     const promise = new Promise(
-      (resolve, reject) =>{
+      (resolve) =>{
         resolve(this.bothNumbers)
       }
     );
